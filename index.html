@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Events(secondMethod)</title>
+    <link rel='stylesheet' href='style.css'/>
+    
+</head>
+<body>  
+         
+     <div>
+             <h1>Events home work</h1>
+
+         <div class="container">
+          <button id="pushFirst" class="btn1">First</button>
+          <script>
+                pushFirst.onclick =function() {
+                    var first = document.getElementById("text");
+                    first.firstChild.nodeValue = "You clicked First button";
+                };
+         </script>
+
+          <button id="pushSecond" class="btn2">Second</button>
+          <script>
+                pushSecond.onclick =function() {
+                    var first = document.getElementById("text");
+                    first.firstChild.nodeValue = "You clicked Second button";
+                };
+         </script>
+          <button id="pushThird" class="btn3">Third</button>
+          <script>
+                pushThird.onclick =function() {
+                    var first = document.getElementById("text");
+                    first.firstChild.nodeValue = "You clicked Third button";
+                };
+         </script>
+        </div>
+        <button id="text" class="text">Please click on any button</button>              
+    </div>
+</body>
+
+</html>
